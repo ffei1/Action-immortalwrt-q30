@@ -1,0 +1,2 @@
+默认IP地址：192.168.3.1
+padavanonly/immortalwrt-mt798x-6.6内核
