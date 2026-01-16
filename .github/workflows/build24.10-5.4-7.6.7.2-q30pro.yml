@@ -21,9 +21,9 @@ env:
   REPO_URL: https://github.com/ffei1/immortalwrt-mt798x-5.4
   REPO_BRANCH: 2410
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: 2410-6.6/.config
+  CONFIG_FILE: 2410-5.4-7.6.7.2/.config
   DIY_P1_SH: diy-1.sh
-  DIY_P2_SH: 2410-6.6/diy-2.sh
+  DIY_P2_SH: 2410-5.4-7.6.7.2/diy-2.sh
   RELEASE_FILE: release3.txt 
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
