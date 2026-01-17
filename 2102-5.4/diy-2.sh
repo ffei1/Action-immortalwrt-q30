@@ -12,4 +12,4 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.3.1/g' package/base-files/files/bin/config_generate
-
+cp -f $GITHUB_WORKSPACE/2102-5.4/21_ethinfo.js package/emortal/autocore/files/generic/21_ethinfo.js
