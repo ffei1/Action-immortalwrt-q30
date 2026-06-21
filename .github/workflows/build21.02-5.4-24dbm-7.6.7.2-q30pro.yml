@@ -89,6 +89,8 @@ jobs:
       run: |
         cd openwrt
         cp -f $GITHUB_WORKSPACE/2102-5.4-24dbm-7.6.7.2/mt79xx_20231229-4012a0_eeprom.tar.xz dl/mt79xx_20231229-4012a0.tar.xz
+        cp -f $GITHUB_WORKSPACE/2102-5.4-24dbm-7.6.7.2/023-fix-qos-peer_vendor_spec_action-frame-check.patch package/mtk/drivers/mt_wifi/patches-7672/023-fix-qos-peer_vendor_spec_action-frame-check.patch
+        cp -f $GITHUB_WORKSPACE/2102-5.4-24dbm-7.6.7.2/022-fix-rrm-snprintf-error.patch package/mtk/drivers/mt_wifi/patches-7672/022-fix-rrm-snprintf-error.patch
         rm package/mtk/drivers/mt_wifi/patches-7672/001-eeprom-flash-api.patch
         
     - name: Download package
