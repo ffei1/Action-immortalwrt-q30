@@ -17,8 +17,8 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/Yuzhii0718/immortalwrt-mt798x-hanwckf
-  REPO_BRANCH: openwrt-21.02
+  REPO_URL: https://github.com/ffei1/immortalwrt-mt798x
+  REPO_BRANCH: Yuzhii0718
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 2102-5.4-24dbm-7.6.7.2/.config
   DIY_P1_SH: diy-1.sh
